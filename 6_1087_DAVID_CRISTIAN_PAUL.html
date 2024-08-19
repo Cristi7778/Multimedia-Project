@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <link rel="stylesheet" href="6_1087_DAVID_CRISTIAN_PAUL.css" />
+    <title>Editor SVG</title>
+</head>
+<body>
+    <h1 id="Head1">EDITOR SVG</h1>
+    <div id="controls">
+    <div id="forms">
+    <form>
+        <input type='radio' id='rbLine' name='shape' value='Line'>
+        <label for='Line'>Line</label><br>
+        <input type='radio' id='rbEllipse' name='shape' value='Ellipse'>
+        <label for='Ellipse'>Ellipse</label><br>
+        <input type='radio' id='rbRectangle' name='shape' value='Rectangle'>
+        <label for='Rectangle'>Rectangle</label>
+    </form>
+    <form>
+        <input type='radio' id='rbDraw' name='action' value='Draw' />
+        <label for='Draw'>Draw</label><br>
+        <input type='radio' id='radioSelect' name='action' value='Select' />
+        <label for='Select'>Select</label><br>
+        <input type='radio' id='radioMove' name='action' value='Move' />
+        <label for='Move'>Move</label>
+    </form>
+    <label id="colorLabel" for='color'>Color:</label>
+    <select name='color' id='colors'>
+        <option value='red'>Red</option>
+        <option value='blue'>Blue</option>
+        <option value='black'>Black</option>
+        <option value='pink'>Pink</option>
+        <option value='white'>White</option>
+        <option value='maroon'>Maroon</option>
+        <option value='green'>Green</option>
+    </select>
+    
+    <form>
+        <label for='size'>Line size:</label>
+        <input value="1" type='number' id='size' name='size'>
+    </form>
+    </div>
+    <div id="buttons">
+    <button id="delete">
+        Delete
+    </button>
+        <button id="reset">
+            Reset
+        </button>
+    
+        <button id='saveSVG'>
+            SaveSVG
+        </button>
+        <button id='savePNG'>
+            SavePNG
+        </button>
+    </div>
+    </div>
+    <svg id='editor' height='700' width='700'>
+        <rect x='0' y='0' width='700' height='700' fill='white' stroke='maroon' stroke-width='5' />
+        <g id='desen'>
+        </g>
+    </svg>
+    
+
+</body>
+<script src="./6_1087_DAVID_CRISTIAN_PAUL.js"></script>
+</html>

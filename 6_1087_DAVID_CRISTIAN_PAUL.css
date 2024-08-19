@@ -1,0 +1,45 @@
+button {
+    font-weight: bold;
+    padding: 5px;
+    width:100px;
+    height:30px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px;
+}
+#Head1{
+    color:brown;
+    padding:10;
+}
+form{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+body{
+    background-color: #fff3df ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#size{
+    background-color: lightpink;
+    text-align:center;
+    width:40px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+#forms{
+    display: flex;
+}
+#colors{
+    height:20px;
+    background-color: lightpink;
+    border-radius: 7px;
+    font-weight: bold;
+}
+#colorLabel{
+    padding-right:6px;
+}
+label{
+    font-weight: bold;
+}
+#buttons{
+    padding:5px;
+}
